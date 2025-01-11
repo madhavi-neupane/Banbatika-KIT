@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+    <link rel="stylesheet" href="/css/style.css">
+
+    <title>Gallery</title>
+</head>
+
+<body>
+
+    <!-- header /  nav -->
+    <header>
+        <nav>
+            <div class="nav">
+                <div class="container">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="col-md-2 d-flex ">
+                            <div class="nav-logo-container ">
+                                <img src="/images/Logo-Natura1.webp" alt="icon">
+                            </div>
+                        </div>
+
+                        <!-- off canvas -->
+                        <button class="hamburger-btn" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                            <img class="hamburger" src="/svg/hamburger.svg" alt="icon" />
+                        </button>
+
+                        <div class="sidebar">
+                            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                                aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                    <button type="button" class="btn-close " data-bs-dismiss="offcanvas"
+                                        aria-label="Close">
+                                    </button>
+                                    <div class="offcanvas-heading" id="offcanvasExampleLabel">
+                                        <div class="offcanvas-logo">
+                                            <img src="/images//Logo-Natura1.webp" alt="img">
+                                        </div>
+                                    </div>
+                                    <div class="offcanvas-btns">
+                                        <a href=""><img src="/svg/offcanvas-fb.svg" alt="fb" /></a>
+                                        <a href=""><img src="/svg/offcanvas-insta.svg" alt="insta" /></a>
+                                        <a href=""><img src="/svg/offcanvas-tweet.svg" alt="tweets" /></a>
+                                    </div>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="offcanvas-pages">
+                                        <div>
+                                            <a href="/index.html"><span>गृह पृष्ठ</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="/html/about.html"><span>हाम्रो बारेमा</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="/html/gallery.html"><span>फोटो/भिडियो</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="/html/special.html"><span>हाम्रो विशेषता</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="/html/team.html"><span>पदाधिकारी/कर्मचारी</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="/html/ticket.html"><span>टिकट दर</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="/html/news_events.html"><span>ब्लग</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="/html/faq.html"><span>बारम्बार सोधिने प्रश्न</span></a>
+                                        </div>
+                                        <div>
+                                            <a href="/html/contact.html"><span>सम्पर्क</span></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class=" col-md-9 nav-menu-container">
+
+                            <div>
+                                <a href="/index.html">गृह पृष्ठ</a>
+                            </div>
+
+                            <div>
+                                <a href="/html/about.html">हाम्रो बारेमा</a>
+                            </div>
+
+                            <div>
+                                <a href="/html/team.html">पदाधिकारी/कर्मचारी</a>
+                            </div>
+
+                            <div>
+                                <a href="/html/ticket.html">टिकट दर</a>
+                            </div>
+
+                            <div>
+                                <a href="/html/news_events.html">ब्लग</a>
+                            </div>
+
+                            <div>
+                                <a href="/html/special.html">हाम्रो विशेषता</a>
+                            </div>
+
+                            <div>
+                                <a href="/html/gallery.html">फोटो/भिडियो</a>
+                            </div>
+
+                            <div>
+                                <a href="/html/faq.html">बारम्बार सोधिने प्रश्न</a>
+                            </div>
+
+                            <div>
+                                <a href="/html/contact.html">सम्पर्क</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- hero section -->
+    <section>
+        <div class="hero-section">
+            <img src="/images/about-hero.webp" alt="img">
+            <div class="hero-section-container">
+                <div class="inner-hero-text-container">
+                    <p class="text-48">Gallery</p>
+                    <p class="my-3"> <a href="/index.html">Home</a> -
+                        Gallery </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- gallery section -->
+    <section>
+        <div class="gallery-section">
+            <div class="container">
+                <div class="gallery-container">
+                    <div class="masonry-grid">
+                        <div class="grid-item">
+                            <a href="/images/Cottage-1.png" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/Cottage-1.png" alt="image" />
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/woman.jpg" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/woman.jpg" alt="image" />
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/home-about.webp" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/home-about.webp" alt="img">
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/guider2.webp" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/guider2.webp" alt="img">
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/team-hero.webp" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/team-hero.webp" alt="img">
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/hero1.png" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/hero1.png" alt="img">
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/hero2.jpg" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/hero2.jpg" alt="img">
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/hero3.jpg" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/hero3.jpg" alt="img">
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/bike.webp" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/bike.webp" alt="img">
+                            </a>
+                        </div>
+                        <div class="grid-item">
+                            <a href="/images/friends.webp" data-fancybox="gallery" data-caption="img 1">
+                                <img src="/images/friends.webp" alt="img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="footer">
+            <div class="container">
+
+                <div class="footer-container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-3 mb-lg-0 mb-4">
+                            <div class="footer-logo">
+                                <img src="/images/Logo-Natura1.webp" alt="logo">
+                            </div>
+                            <div class="mini-text my-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores cupiditate aperiam quos
+                                quis adipisci
+                            </div>
+                            <div class="footer-contact">
+                                <img src="/svg/footer-call.svg" alt="icon">
+                                <div class="footer-contact-text">
+                                    <p class="text-24">+800-3374-4676</p>
+                                    <p class="mini-text text-sec">Hotline Round-the-clock</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6">
+                            <div class="footer-link">
+                                <h5 class="ms-4">Explore</h5>
+                                <ul>
+                                    <li> <a href="#">Cottages</a> </li>
+                                    <li> <a href="#">Cottage Detail</a> </li>
+                                    <li> <a href="#">Activities</a> </li>
+                                    <li> <a href="#"> Gallery</a> </li>
+                                    <li> <a href="#"> Contact</a> </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 col-6">
+                            <div class="footer-link">
+                                <h5 class="ms-4">Quick Links</h5>
+                                <ul>
+                                    <li> <a href="#">About us</a> </li>
+                                    <li> <a href="#">Our Guider</a> </li>
+                                    <li> <a href="#">Testimonials</a> </li>
+                                    <li> <a href="#">Pricing Plan</a> </li>
+                                    <li> <a href="#">FAQs</a> </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 mt-lg-0 mt-3">
+                            <p class="text-16">Subscribe to Our Newsletter</p>
+                            <p class="mini-text my-lg-4 my-1">Subscribe to receive inspiration, ideas, and
+                                news in your
+                                inbox.
+                            </p>
+                            <div class="footer-email">
+                                <input type="email" placeholder="Your Email">
+                                <p>Subscribe</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>All rights reserved @ 2024 </p>
+                    <div class="d-flex">
+                        <p> Developed by: </p> <img src="/images/kantipur.svg" alt="logo" class="ps-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- light box -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+        Fancybox.bind('[data-fancybox="gallery"]', {
+            // Your custom options for a specific gallery
+        });
+    </script>
+
+</body>
+
+</html>
